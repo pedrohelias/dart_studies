@@ -55,6 +55,7 @@ void main(){
   String? nomeAutor = stdin.readLineSync()!;
 
   Compras compras1 = Compras(nomeLista, nomeAutor);
+  ;
   String list = compras1.nomeLista;
 
   //compras1.adicionarProduto("Amaciante", 2);
