@@ -18,3 +18,11 @@
 
 ## ESTRUTURA DA MAIN.DART
 
+- O Import será responsavel por importas as libs
+- É possível utilizar bibliotecas públicas
+- O Material.dart são todos os elementos gráficos e de design que utilizaremos no projeto. O "CSS"
+- O runApp dentro do void main vai rodar um aplicativo, a estrutura base é: runApp(MyApp()); Myapp é o aplicativo em si.
+
+## WIDGET
+
+- É uma ferramenta. Tudo no flutter é modular, então tudo construído no flutter é um widget. 
