@@ -143,7 +143,7 @@ class MyApp extends StatelessWidget{
   Widget build(BuildContext context) {
     // TODO: implement build
     return MaterialApp(
-      home: homeWidget() //esse widget ocupa a tela inteira
+      home: homeWidget(nome: "Pedro Helias") //esse widget ocupa a tela inteira
     );
     
     
@@ -154,12 +154,16 @@ class MyApp extends StatelessWidget{
 //podemos criar diversos componentes para nossa tela. Um deles foi o home abaixo.
 
 class homeWidget extends StatelessWidget{
+  final String nome;
+
+  const homeWidget({super.key, required this.nome});
+  
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
     return Material( //para criar essa estrutura que encapsulou o child center, criamos outro widget. Ao cliecar em center, achamos a lampada e clicamos em  "wrap with widget" 
       child: Center(
-        child: Text("Pedro Helias Carlos 2")));
+        child: Text(nome)));
   }
 
 }
