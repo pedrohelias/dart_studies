@@ -68,7 +68,7 @@ class playerDescribe{
     if(id == null){
       idGenerate();
     }
-    print("Jogador: $name\nEmail: $email\nid: $id\ngems: $gems\ngold: $gold");
+    print("Jogador: com $id e $name\nEmail: $email\nid: $id\ngems: $gems\ngold: $gold");
   }
 
   void idGenerate(){
